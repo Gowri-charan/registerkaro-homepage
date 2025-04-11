@@ -1,4 +1,3 @@
-// components/Footer.js
 import { PhoneCall, Mail, MapPin, Clock, Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
 
 export default function Footer() {
