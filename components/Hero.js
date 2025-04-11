@@ -1,4 +1,3 @@
-// components/Hero.js
 import { useState, useEffect } from 'react';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
