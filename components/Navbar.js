@@ -1,4 +1,4 @@
-// components/Navbar.js
+
 import { useState, useEffect } from 'react';
 import { MenuIcon, XIcon, PhoneIcon, SearchIcon } from 'lucide-react';
 
