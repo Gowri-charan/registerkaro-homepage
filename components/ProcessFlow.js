@@ -52,7 +52,7 @@ export default function ProcessFlow() {
     }
   ];
 
-  // Auto-advance the steps for demo animation
+  //  demo animation
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveStep((prev) => (prev + 1) % steps.length);
