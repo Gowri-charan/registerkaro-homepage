@@ -1,4 +1,3 @@
-// components/ProcessFlow.js
 import { useState, useEffect } from 'react';
 
 export default function ProcessFlow() {
