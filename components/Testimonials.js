@@ -41,6 +41,8 @@ export default function Testimonials() {
     }
   ];
 
+
+  
   const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
   }, [testimonials.length]);
@@ -49,7 +51,7 @@ export default function Testimonials() {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length);
   };
 
-  // Auto-rotate testimonials
+  // Auto-rotate 
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
@@ -110,7 +112,7 @@ export default function Testimonials() {
                 </div>
 
 
-              ))}            </div>          </div>                    {/* Navigation Buttons */}
+              ))}            </div>          </div>                    {/*  Buttons */}
           <button 
             onClick={prevSlide}
             className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-4 md:-translate-x-6 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition"
