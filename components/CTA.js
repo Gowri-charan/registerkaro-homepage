@@ -1,4 +1,3 @@
-// components/CTA.js
 import { ArrowRight } from 'lucide-react';
 
 export default function CTA() {
