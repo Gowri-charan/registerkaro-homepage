@@ -1,4 +1,4 @@
-import "../styles/globals.css"; // if _app.js is inside /pages
+import "../styles/globals.css"; 
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
