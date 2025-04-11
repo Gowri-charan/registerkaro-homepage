@@ -1,4 +1,3 @@
-// components/FAQ.js
 import { useState } from 'react';
 import { ChevronDown, ChevronUp, Search, ArrowRight } from 'lucide-react';
 
