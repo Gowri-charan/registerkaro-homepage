@@ -1,4 +1,3 @@
-// components/Testimonials.js
 import React, { useCallback } from 'react';
 import { useState, useEffect } from 'react';
 import { Star, ArrowLeft, ArrowRight } from 'lucide-react';
